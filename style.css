@@ -455,14 +455,14 @@ header nav a {
 
 /*********************Footer start***************/
 
-footer {
+.footer {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
     background-color: #BEBEBE;
+    justify-content: center;
 }
 
-footer p {
+.footer p {
     color: #404040;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -470,7 +470,7 @@ footer p {
     color: #404040;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 35vw;
+
 
 }
 
