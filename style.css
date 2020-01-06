@@ -1,0 +1,512 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    background-image: url(billeder/tower_newyork.png);
+    background-size: cover;
+
+    display: block;
+
+}
+
+
+
+img {
+    width: 100%;
+
+}
+
+
+
+.image a {
+    filter: grayscale(100%);
+
+
+    padding: 10px;
+
+}
+
+/* unvisited link */
+.image a:link {
+    filter: grayscale(0%);
+
+}
+
+/* visited link */
+.image a:visited {
+    filter: grayscale(100%);
+
+}
+
+/* mouse over link */
+.image a:hover {
+    filter: grayscale(100%);
+    text-decoration: none;
+}
+
+/* selected link */
+.image a:active {
+    filter: grayscale(100%);
+
+}
+
+
+
+
+/******Splah billede*****/
+
+
+#splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(billeder/newyork.png);
+    background-size: cover;
+    background-position: center;
+    max-width: none;
+}
+
+
+
+
+/*********Links style*********/
+
+.links a {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #404040;
+    text-transform: uppercase;
+
+    padding: 10px;
+
+}
+
+
+/* unvisited link */
+.links a:link {
+    background-color: #404040;
+}
+
+/* visited link */
+.links a:visited {
+    background-color: #404040;
+
+}
+
+/* mouse over link */
+.links a:hover {
+    background-color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+.links a:active {
+    background-color: black;
+
+}
+
+/*********Links slut*********/
+
+
+
+
+
+
+
+/*********Fonts style********/
+
+.headline {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 2vw;
+    margin: 1.7vw;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 0.5vw;
+    padding: 1vw;
+
+
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.2rem;
+    color: black;
+    text-transform: inherit;
+    line-height: 1.7;
+}
+
+
+/*********Fonts style SLUT********/
+
+
+///*****************Burger menu ************************///
+
+nav {
+    overflow: hidden;
+
+    background-color: #BEBEBE;
+
+    margin: 0;
+}
+
+nav a {
+
+    float: left;
+    font-size: 1.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #404040;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+
+.hidden {
+    display: none;
+    transform: scale(0);
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    transform-origin: top right;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top right;
+}
+
+/* ******************* MENU***************** */
+
+/* unvisited link */
+header nav a:link {
+    color: #404040;
+}
+
+/* visited link */
+header nav a:visited {
+    color: #404040;
+}
+
+
+/* mouse over link */
+header nav a:hover {
+    color: white;
+}
+
+header nav a:active {
+    color: white;
+}
+
+
+header nav a:active {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: #404040;
+}
+
+
+header {
+    background: #BEBEBE;
+
+    position: relative;
+    width: 100%;
+
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+
+header nav a {
+    margin: 0.5rem;
+    padding: 0.2rem;
+
+}
+
+/*******Burger menu SLUT*************/
+
+
+
+
+
+
+/******************Om mig***************/
+
+#ommig .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #404040;
+
+
+    padding: 2vw;
+    margin: 4vw;
+
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+/*#ommig .col img {
+    margin-top: 2vw;
+    height: 60vw;
+    width: 40vw;
+    margin-left: 10vw;
+    margin-right: 1.7vw;
+
+
+}*/
+
+#ommig .col p {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.2rem;
+    color: #DADADA;
+    text-transform: inherit;
+    line-height: 1.7;
+
+    padding-left: 1vw;
+
+}
+
+#ommig .col h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #DADADA;
+    text-transform: uppercase;
+    padding-left: 1vw;
+}
+
+/******************Om mig  SLUT***************/
+
+
+
+
+
+
+/******************Web START******************/
+#web .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#web .col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 2vw;
+    margin: 4vw;
+    background-color: #D9D0C5;
+    margin-top: 1vw;
+
+}
+
+/******************Web SLUT******************/
+
+
+
+
+
+/******************UX START******************/
+
+#ux .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#ux .col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 3vw;
+    margin: 6vw;
+    background-color: #D9D0C5;
+    margin-top: 1vw;
+
+}
+
+
+
+
+
+
+
+
+/*#ux .col img {
+    flex-grow: 1;
+    flex-basis: 300px;
+
+    height: 34vw;
+    width: 18vw;
+
+    margin-left: 5vw;
+
+}*/
+
+/******************UX SLUT******************/
+
+
+
+
+/******************Animation START******************/
+
+#animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#animation .col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 2vw;
+    margin: 4vw;
+    background-color: #D9D0C5;
+    margin-top: 1vw;
+
+}
+
+
+
+/******************Animation SLUT******************/
+
+
+
+
+
+
+
+
+
+/******************Indhold START******************/
+
+#indhold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#indhold .col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 3vw;
+    margin: 3vw;
+    background-color: #D9D0C5;
+
+
+}
+
+
+.pilotvideo {
+    width: 100%;
+    display: block;
+    margin-top: 5vw;
+}
+
+
+
+
+/******************Indhold SLUT******************/
+
+
+
+
+/*********************Footer start***************/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: #BEBEBE;
+}
+
+footer p {
+    color: #404040;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: #404040;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 35vw;
+
+}
+
+/************Footer SLUT**********/
+
+
+/*****media quries - skal opstilles efter mindst --> størst*****/
+
+@media only screen and (min-width: 600px);
+
+    {
+
+    #menuknap {
+        display: none;
+
+    }
+
+    #menuhidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+}
+
+
+/* ***splash billede web**** */
+
+@media (orientation:portrait) and (min-width: 300px) {
+
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+    }
+
+}
