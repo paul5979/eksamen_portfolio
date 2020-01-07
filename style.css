@@ -213,6 +213,7 @@ nav a {
 #menuknap {
     display: inline-block;
     transform-origin: top right;
+    font-size: 2rem;
 }
 
 #menu {
@@ -532,6 +533,7 @@ header nav a {
 
     #menuknap {
         display: none;
+
 
     }
 
