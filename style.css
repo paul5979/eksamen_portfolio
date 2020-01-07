@@ -154,6 +154,18 @@ h3 {
     text-transform: uppercase;
 }
 
+
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
+
 p {
     font-family: 'Libre Caslon Display', serif;
     font-size: 1.2rem;
@@ -322,6 +334,36 @@ header nav a {
 
 
 
+
+/****************CV START*****************/
+#cv .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#cv .col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 2vw;
+    margin: 4vw;
+    background-color: #D9D0C5;
+    margin-top: 1vw;
+    text-align: center;
+
+}
+
+/****************CV SLUT*****************/
+
+
+
+
+
+
+
+
+
 /******************Web START******************/
 #web .sectionwrapper {
     display: flex;
@@ -364,6 +406,9 @@ header nav a {
     margin-top: 1vw;
 
 }
+
+
+
 
 
 
